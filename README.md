@@ -1,9 +1,9 @@
 
-![Website Screenshot](https://i.ibb.co/RCqHQy2/Alpha-Byte.png)
+![Website Screenshot]()
 
-<img src="https://raw.githubusercontent.com/AlphaByte-dev/alphabyte-website/main/src/images/AlphaByte_logo-only.png" alt="logo" width="100px" align="right" />
+<img src="" alt="logo" width="100px" align="right" />
 
-# AlphaByte Official Website
+# Official Website
 Official website of AlphaByte, Amity University Mumbai.
 
 ### Table of Contents
