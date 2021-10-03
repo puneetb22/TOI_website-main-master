@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @@include('../sections/head.html', {
+    title: 'Contact - Finex',
+    description: 'Feel free to contact us for collaboration and events. You can join our Discord channel to directly get in-touch.',
+    image: '',
+    url: 'contact.html'
+  })
+
+  <!-- CSS -->
+  <link href="./assets/css/contact.css" rel="stylesheet" />
+</head>
+<body>
+  @@include('../sections/nav.html')
+
+  @@include('../sections/page-header.html', {'title': 'Contact Us'})
+
+  <main id="contact-section" class="container">
+    <div class="container__inner">
+
+      <div id="contact-details-subsection">
+        <h2 class="section-title">Details</h2>
+        <div  class="subsection">
+          <h3 class="section-subtitle">Address</h3>
+          <!--a class="link" href="https://goo.gl/maps/zkHpuc2REZYjgmK4A" target="_blank">Sri Balaji University Pune </a-->
+          <div class="description">FINEX-Pune, Maharashtra</div>
+        </div>
+        <div  class="subsection">
+          <h3 class="section-subtitle">Email</h3>
+          <a class="link" href="mailto:contact.alphabyte@gmail.com" target="_blank">finex.edu.info@gmail.com</a>
+          <div class="description">Send us your query anytime!</div>
+        </div>
+      </div>
+
+
+      
+      <hr class="section-divider-hr">
+
+      <div id="contact-form-subsection">
+        <h2 class="section-title">Form</h2>
+        <form id="contact-form" action="https://formspree.io/f/xeqvpajk" method="POST">
+          <div class="contact-form__part contact-form__left">
+            <div class="input-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder="Enter your name" id="name">
+            </div>
+            <div class="input-group">
+              <label for="email">Email<span class="required-indicator">*</span></label>
+              <input type="email" name="_replyto" placeholder="Enter your email" id="email" required>
+            </div>
+            <div class="input-group">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" placeholder="Enter subject" id="subject">
+            </div>
+          </div>
+          <div class="contact-form__part contact-form__right">
+            <div class="input-group">
+              <label for="message">Message<span class="required-indicator">*</span></label>
+              <textarea name="message" id="message" placeholder="Enter your message" rows="6" required></textarea>
+            </div>
+            <div class="input-group">
+              <button class="form-button" type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <hr class="section-divider-hr">
+
+      <div id="contact-map">
+        <h2 class="section-title">Map</h2>
+        <div id="google-map">
+          <div style="width: 100%">
+            <!--iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Amity%20University%20Mumbai+(Amity%20University%20Mumbai)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2276878866264!2d73.75293831446923!3d18.608825987357584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0df00000001%3A0xa2ad2470a7abb9f3!2sSri%20Balaji%20University%2C%20Pune!5e0!3m2!1sen!2sin!4v1627387895746!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  @@include('../sections/footer.html')
+  <!-- JS -->
+  <script src="./assets/js/contact.js"></script>
+</body>
+</html>

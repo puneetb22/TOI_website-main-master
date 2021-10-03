@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @@include('./sections/head.html', {
+    title: 'Finex',
+    description: 'Student Financial Education Community which organizes talks, workshops, quizes, challenges, and more.',
+    image: '',
+    url: ''
+  })
+  
+  <!-- CSS -->
+  <link href="./assets/css/index.css" rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-204966915-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-204966915-1');
+</script>
+
+</head>
+<body>
+  <header id="header">
+    @@include('./sections/nav.html')
+
+    <div id="particles-js"></div>
+    <marquee width="80%" direction="up" height="100px"> 
+     
+
+      <!--img style="width: 20px;" src ="./assets/images/1f1ee-1f1f3.png"--->
+      <!--a href="https://www.instagram.com/p/CSlZEQyKdOC/?utm_source=ig_web_copy_link">
+ 
+     
+      Happy Independence Day 🎉 </a--></marquee>
+    <img class="header__logo" src="./assets/images/Finex-logo-3.svg" alt="AlphaByte logo">
+    <h1 class="header__title1">STUDENT FINANCIAL EDUCATION COMMUNITY</h1>
+    <h1 class="header__title2">PUNE</h1>
+    <marquee style="text-align: center; color: var(--color-primary); text-decoration: none;" scrollamount="4" width="80%" direction="up" height="600px"> 
+      <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+      <small><i><a href="/quote_of_the_day" target="_blank" rel="nofollow">more Quotes</a></i></small>
+</marquee>
+    <div class="shape1"></div>
+    <div class="shape2"></div>
+    
+  </header>
+  <section id="about-us" class="container">
+    <div class="container__inner">
+      <h2 class="container__title-shadow">ABOUT US</h2>
+      <h2 class="container__title">ABOUT US</h2>
+      <p><a style="text-transform: uppercase; font-size:64px;">F</a>INEX (Financial Insights Exchange), is a student-driven initiative to facilitate knowledge sharing on finance matters and provide a deeper insight into the financial sector to the student managers, by organizing several in house competitions such as Quizzes, Webinars, Case Study Analysis, etc. With all its potential, the committee strives to promote finance-related activities and careers for the students.
+
+      </p>
+      <p>  We understand peer to peer learning importance and hence we will organize routine peer-lessons called “Finology” for the students on Weekends. Finex is a Students Club i.e., Your Own Club, each student irrespective of their Specialization can fill the form and become an active member of the Club.
+       <br> 
+        *Terms and Conditions Applied</p>
+    </div>
+  </section>
+
+  <section id="daily_news" class="container">
+    <div class="container__inner">
+      <h2 class="container__title-shadow">Daily News</h2>
+      <h2 class="container__title">Daily News</h2>
+      <p style="color:green;"id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+      <script src="//rss.bloople.net/?url=https%3A%2F%2Feconomictimes.indiatimes.com%2Fmarkets%2Fstocks%2Frssfeeds%2F2146842.cms&limit=3&showtitle=true&showicon=false&type=js"></script>
+    </div>
+  </section>
+
+  <section id="about-us" class="container">
+    <div class="container__inner">
+      <h2 class="container__title-shadow">Stock Screener</h2>
+      <h2 class="container__title">Stock Screener</h2>
+      <p class="sc-embed" data-width="500px" data-orders="%5B%7B%22type%22%3A%22buy%22%2C%22quantity%22%3A10%2C%22ticker%22%3A%22RELIANCE%22%7D%5D" data-cardsize="big" data-withtt="true" data-withsearch="true" style="width:100%;min-height:300px;display:flex;align-items:center;justify-content:center"> <strong>loading widget to trade RELIANCE</strong> </p> <script async src="https://www.gateway-tt.in/assets/embed.js"></script> 
+
+    </div>
+  </section>
+
+
+
+  @@include('./sections/footer.html')
+  <!-- JS -->
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>

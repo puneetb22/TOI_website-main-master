@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @@include('../sections/head.html', {
+    title: 'Members - AlphaByte',
+    description: 'The team at AlphaByte. Alone we can do so little, together we can do so much.',
+    image: '',
+    url: 'members.html'
+  })
+  
+  <!-- CSS -->
+  <link href="./assets/css/members.css" rel="stylesheet" />
+</head>
+<body>
+  @@include('../sections/nav.html')
+
+  @@include('../sections/page-header.html', {'title': 'Members'})
+
+  <main id="members-section" class="container">
+    <div class="container__inner">
+      <div id="core-committee">
+        <h2 class="section-title">Core Committee</h2>
+        <div id="core-committee-members" class="members">
+          <!-- data loads here -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  @@include('../sections/footer.html')
+  <!-- JS -->
+  <script src="./assets/js/members.js"></script>
+</body>
+</html>

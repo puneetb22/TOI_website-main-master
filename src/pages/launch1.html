@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: gold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 40%;
+}
+
+.button:hover {background-color:grey}
+
+.button:active {
+  background-color:slategray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header__logo{
+    width: 240px;
+    margin-left: 40%;
+}
+</style>
+</head>
+<body>
+
+    <marquee width="100%" direction="up" style="text-align:center;" height="100px"> <img style="width: 20px;" src ="./assets/images/1f1ee-1f1f3.png"><a href="https://www.instagram.com/p/CSlZEQyKdOC/?utm_source=ig_web_copy_link">
+ 
+     
+        Happy 75th Independence Day 🎉 </a></marquee>
+    <img class="header__logo" src="./assets/images/Finex-logo-3.svg" alt="AlphaByte logo">
+<h2 style="text-align: center;"> </h2>
+<p style="color:green; text-align:center;"id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+<button class="button" onclick="window.location.href='https://finex-edu.info/launch.html';">Start Countdown</button>
+
+</body>
+</html>

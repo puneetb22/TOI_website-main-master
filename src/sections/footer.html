@@ -1,0 +1,67 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-204966915-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-204966915-1');
+</script>
+
+<hr class="rainbow-hr">
+
+<button onclick="topFunction()" id="upBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("upBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+
+<div class="social-section container">
+  <div class="container__inner">
+    <a class="social-button instagram" href="https://www.instagram.com/finex_sbup" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a class="social-button linkedin" href="#" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    
+    <!--a class="social-button twitter" href="https://twitter.com/alphabyte_aum" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a class="social-button youtube" href="https://www.youtube.com/channel/UCULDOLbHC0yRQ4bNV4AvnVQ" target="_blank">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a class="social-button discord" href="https://discord.gg/rRejGpe" target="_blank">
+      <i class="fab fa-discord"></i>
+    </a>
+    <a class="social-button github" href="https://github.com/AlphaByte-dev" target="_blank">
+      <i class="fab fa-github"></i>
+    </a -->
+  </div>
+</div>
+
+<footer class="footer">
+  Developed by <a href="https://www.linkedin.com/in/puneetb22/" style="color:var(--color-primary); cursor: pointer;"> Punit s Baviskar</a>
+</footer>
+<!-- inject:js -->
+<!-- endinject -->
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
